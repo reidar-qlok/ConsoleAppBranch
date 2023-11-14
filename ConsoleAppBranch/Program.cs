@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            //Skapa referens av en employee och lägg in lite data
-            // Skapa en metod som startar programmet
+            AppRun();
+        }
+
+        public static void AppRun()
+        {
+            //här ska vi skapa objekt av LoginManager-klassen 
         }
     }
 }
