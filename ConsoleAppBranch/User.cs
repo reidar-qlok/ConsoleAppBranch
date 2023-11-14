@@ -8,6 +8,15 @@ namespace ConsoleAppBranch
 {
     public class User
     {
-        //fylla på userdata
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string UserRole { get; set; }
+
+        public User(string username, string password, string userRole)
+        {
+            Username = username;
+            Password = password;
+            UserRole = userRole;
+        }
     }
 }
